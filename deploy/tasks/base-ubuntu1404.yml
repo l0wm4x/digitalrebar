@@ -27,8 +27,6 @@
       - ruby2.1
       - ruby2.1-dev
       - screen
-      - qemu-kvm
-      - libvirt-bin
       - ubuntu-vm-builder
       - bridge-utils
       - make

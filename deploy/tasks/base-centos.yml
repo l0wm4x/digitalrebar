@@ -23,8 +23,6 @@
     yum: name={{ item }} state=latest
     with_items:
       - screen
-      - qemu-kvm
-      - libvirt
       - bridge-utils
       - ruby-devel
       - make

@@ -15,9 +15,6 @@
   - name: Install Provisioner Prereqs [SLOW]
     apt: name={{ item }} state=latest
     with_items:
-      - screen
-      - qemu-kvm
-      - libvirt-bin
       - ubuntu-vm-builder
       - bridge-utils
       - ruby-dev

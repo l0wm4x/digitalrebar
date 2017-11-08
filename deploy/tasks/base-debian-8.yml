@@ -16,8 +16,6 @@
     apt: name={{ item }} state=latest
     with_items:
       - screen
-      - qemu-kvm
-      - libvirt-bin
       - bridge-utils
       - ruby-dev
       - rubygems
